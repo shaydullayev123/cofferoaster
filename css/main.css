@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Fraunces:wght@900&display=swap');
+
+
+*,
+::after,
+::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Barlow', sans-serif;
+  font-family: 'Fraunces', serif;
+}
+
+/* navbar */
+
+nav .nav__wrapper{
+  display: flex;
+  max-width: 1280px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 80px;
+  /* background: #444; */
+}
+
+nav .nav__wrapper img{
+  width: 235px;
+  height: 25px;
+  margin: 45px 0;
+  /* padding: 45px auto; */
+}
+
+nav .nav__wrapper .nav__list{
+  display: flex;
+  list-style: none;
+  gap: 35px;
+  /* padding-right: 60px; */
+}
+
+nav .nav__wrapper .nav__list .nav__list-item a{
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888F;
+  transition: all .3s ease;
+}
+
+nav .nav__wrapper .nav__list .nav__list-item a:hover{
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #333D4B;
+}
+
+/* end of navbar */
+
+/* heder section  */
+
+.container{
+  max-width: 1111px;
+  margin: 0 auto;
+}
+
+.hero__wrapper{
+  padding: 100px 120px 50px 85px;
+  background-image: url(../images/hero__bg.jpg);
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* .hero__section{
+
+} */
+
+.hero__section h2{
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #FEFCF7;
+  padding-right: 400px;
+}
+
+.hero__section p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  padding-right: 430px;
+  margin: 32px 0 56px;
+}
+
+.btn{
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #FEFCF7;
+  text-decoration: none;
+  padding: 15px 30px;
+  background: #66D2CF;
+  border-radius: 6px;
+}
+
+.btn:hover{
+  background: #63e0dc;
+}
+
+
+
+/* end of heder section  */
